@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class Adaline(object):
+class AdalineGD(object):
     """ADAptive LInear NEuron classifier"""
 
     def __init__(self, eta=0.01, n_iter=10):
